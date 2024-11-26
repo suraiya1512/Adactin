@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" thread-count="5">
+	
+	<groups>
+	 <run>
+		 
+		<include name = "General"/>
+		<include name = "DDT"/>
+		<include name = "Build1"/>
+		<include name = "Build2"/> 
+	 </run>	
+	</groups>
+	
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager"/>
+	</listeners>
+	
+ <test  name="Test">
+	 
+  <parameter name="os" value="Windows"/>
+  <parameter name="browser" value="chrome"/>
+  
+    <classes>
+	  <class name="testCase.TC001_NewUserRegistration"/>
+      <class name="testCase.TC002_Login_Build1_Test"/>
+      <class name="testCase.TC003_Login_DDT_Build1"/>
+      <class name="testCase.TC004_Search_Hotel_Test_Build1"/>
+      <class name="testCase.TC005_CheckOut_Date_Test_Build1"/>
+      <class name="testCase.TC006_Select_Hotel_Test_Build1"/>
+      <class name="testCase.TC007_Hotel_Data_Vrification_Test_Build1"/>
+      <class name="testCase.TC008_Price_Validation_Test_Build1"/>
+      <class name="testCase.TC009_Book_Hotel_Test_Build1"/>
+      <class name="testCase.TC010_Booking_Confirmation_Test_Build1"/>
+      <class name="testCase.TC011_Itenary_Test_Build1"/>
+      <class name="testCase.TC012_LoginTest_Build2"/>
+      <class name="testCase.TC013_SearchHotelTest_Build2"/>
+      <class name="testCase.TC014_CheckOutDateTest_Build2"/>
+      <class name="testCase.TC015_SelectHotelTest_Build2"/>
+      <class name="testCase.TC016_HotelDataVerificationTest_Build2"/>
+      <class name="testCase.TC017_PriceValidationTest_Build2"/>
+      <class name="testCase.TC018_BookHotelTest_Build2"/>
+      <class name="testCase.TC019_BookingConfirmationTest_Build2"/>
+      <class name="testCase.TC020_ItenaryTest_Build2"/>
+   </classes>
+   
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

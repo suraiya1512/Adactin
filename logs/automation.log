@@ -1,0 +1,22 @@
+15:58:59.626 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+15:58:59.639 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+15:58:59.639 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+15:58:59.648 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+15:58:59.648 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+15:59:00.001 [main] INFO  testCase.TC003_Login_DDT_Build1 - **********DDT started*************
+15:59:00.021 [main] INFO  testCase.TC003_Login_DDT_Build1 - **********DDT Completed*************
+15:59:00.335 [main] INFO  testCase.TC003_Login_DDT_Build1 - **********DDT started*************
+15:59:00.355 [main] INFO  testCase.TC003_Login_DDT_Build1 - **********DDT Completed*************
+15:59:00.936 [main] INFO  testCase.TC003_Login_DDT_Build1 - **********DDT started*************
+15:59:01.412 [main] INFO  testCase.TC003_Login_DDT_Build1 - **********DDT Completed*************
+15:59:01.535 [main] INFO  testCase.TC003_Login_DDT_Build1 - **********DDT started*************
+15:59:01.546 [main] INFO  testCase.TC003_Login_DDT_Build1 - **********DDT Completed*************
+15:59:01.853 [main] INFO  testCase.TC003_Login_DDT_Build1 - **********DDT started*************
+15:59:01.865 [main] INFO  testCase.TC003_Login_DDT_Build1 - **********DDT Completed*************
+15:59:01.984 [main] INFO  testCase.TC003_Login_DDT_Build1 - **********DDT started*************
+15:59:01.993 [main] INFO  testCase.TC003_Login_DDT_Build1 - **********DDT Completed*************
+15:59:16.257 [main] INFO  testCase.TC004_Search_Hotel_Test_Build1 - *****Hotel Selection Completed************
+15:59:42.858 [main] INFO  testCase.TC006_Select_Hotel_Test_Build1 - *********Select Hotel Verification Completed*****
+16:02:17.274 [main] INFO  testCase.TC012_LoginTest_Build2 - *****Login Build 2 Successful*****
+16:02:33.151 [main] INFO  testCase.TC013_SearchHotelTest_Build2 - *****Hotel Selection Completed************
+16:03:08.926 [main] INFO  testCase.TC015_SelectHotelTest_Build2 - *********Select Hotel Verification Completed*****
